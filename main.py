@@ -11,6 +11,18 @@ conversion_dictionary = {
 }
 
 
+def main():
+    help_string = "Syntax: [-d(--toDecimal) | -r(--toRoman)] <number_to_convert>"
+    if len(sys.argv) < 3:
+        print(help_string)
+    elif sys.argv[1] == "-d" or sys.argv[1] == "--toDecimal":
+        print(roman_to_decimal(sys.argv[2]))
+    elif sys.argv[1] == "-r" or sys.argv[1] == "--toRoman":
+        print(decimal_to_roman(int(sys.argv[2])))
+    else:
+        print("Option not recognized." + help_string)
+
+
 def decimal_to_roman(decimal: int) -> str:
     roman_numerals = ""
     while decimal > 0:
@@ -19,7 +31,7 @@ def decimal_to_roman(decimal: int) -> str:
                 roman_numerals += symbol
                 decimal -= conversion_dictionary[symbol]
                 break
-        last_3 = roman_numerals[-3:]
+
         last_4 = roman_numerals[-4:]
         last_5 = roman_numerals[-5:]
         if last_4 == "IIII":
@@ -70,12 +82,4 @@ def roman_to_decimal(roman_numeral: str) -> int:
 
 
 if __name__ == '__main__':
-    help_string = "Syntax: [-td(--todecimal) | -tr(--toroman)] <number_to_convert>"
-    if len(sys.argv) < 3:
-        print(help_string)
-    elif sys.argv[1] == "-td" or sys.argv[1] == "--todecimal":
-        print(roman_to_decimal(sys.argv[2]))
-    elif sys.argv[1] == "-tr" or sys.argv[1] == "--toroman":
-        print(decimal_to_roman(int(sys.argv[2])))
-    else:
-        print("Option not recognized." + help_string)
+    main()

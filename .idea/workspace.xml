@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f699b55f-3cd5-49ca-984a-cea189c469ca" name="Changes" comment="First  commit">
+    <list default="true" id="f699b55f-3cd5-49ca-984a-cea189c469ca" name="Changes" comment="decimal_to_roman and roman_to_decimal implemented. Added support for command line arguments.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711811910290</updated>
       <workItem from="1711811913905" duration="1672000" />
-      <workItem from="1711844827054" duration="5195000" />
+      <workItem from="1711844827054" duration="6658000" />
     </task>
     <task id="LOCAL-00001" summary="First  commit">
       <option name="closed" value="true" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711812119186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="decimal_to_roman and roman_to_decimal implemented. Added support for command line arguments.">
+      <option name="closed" value="true" />
+      <created>1711851327743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711851327743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,20 +114,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First  commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First  commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="decimal_to_roman and roman_to_decimal implemented. Added support for command line arguments." />
+    <option name="LAST_COMMIT_MESSAGE" value="decimal_to_roman and roman_to_decimal implemented. Added support for command line arguments." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RomanNumeralCalculator$main.coverage" NAME="main Coverage Results" MODIFIED="1711851111991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RomanNumeralCalculator$main.coverage" NAME="main Coverage Results" MODIFIED="1711852481113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
