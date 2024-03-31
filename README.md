@@ -1,3 +1,4 @@
+Created by Josh Klingonsmith for the OIT Student Programmer role on 3/30/24
 ## Time Spent:
 I spent about 30 minutes looking over the challenge documentation, brainstorming solutions, and setting up my environment. I spent a little less than an hour implementing and testing my solution in Python, and now expect to spend about 15 minutes preparing my submission in GitHub. Due to personal time contraints, my goal was to spend at most an hour and a half on the challenge.
 ## Process:
